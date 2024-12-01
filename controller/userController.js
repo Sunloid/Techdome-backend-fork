@@ -1,6 +1,9 @@
 const User = require("../models/userModel");
 const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken");
+const dotenv = require('dotenv');
+dotenv.config();  // Load .env variables
+
 
 
 exports.register = async (req, res) => {

@@ -7,7 +7,7 @@ const multer = require('multer');
 const cloudinary = require('cloudinary');
 
 dotenv.config();
-const port = process.env.PORT;
+const port = process.env.PORT ;
 
 
 ////////------ cloudinary -------//////////
